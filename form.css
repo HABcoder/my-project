@@ -1,0 +1,97 @@
+
+body {
+    background-image: url(pexels-pixabay-326055.jpg);
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.all {
+    display: flex;
+    height: 750px ;
+    width: 80% ;
+    background-color: aliceblue;
+   margin: 75px 0 0 130px;
+   border: 1px solid rgb(0, 0, 0);
+   border-radius: 10px;  
+   box-shadow: 0 0 4px rgb(69, 197, 248);
+}
+
+.rt {
+    background: url(sin.PNG) no-repeat;
+    background-size: cover;
+    height: 750px;
+    width: 40%;
+    text-align: center;
+    border-radius: 6px;  
+    
+}
+img {
+position: relative;
+    width: 45%;
+    top: 200px;
+}
+
+h3 {
+    position: absolute;
+    top: 50%;
+    left: 14%;
+    color: white;
+    line-height: 25px;
+}
+.lt {
+    height: 750px;
+    width: 60%;
+    padding: 5% 0 0 10%;  
+}
+
+h2{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.first input {
+    width: 60%;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid rgb(41, 41, 41);
+    margin-top: 5px;
+    border-radius: 2px;
+}
+button {
+    width: 60%;
+    margin-top: 20px;
+    height: 35px;
+    color: aliceblue;
+    background-color: #7a4597;
+    border: 0cap;
+    border-radius: 2px;
+    font-weight: 700;
+    cursor: pointer; 
+    font-size: 15px; 
+    transition: background-color 0.3s, color 0.3s,font-size 0.3s; 
+}
+button:hover {
+    color: #7a4597;
+    background-color: transparent;
+    border: 2px solid #7a4597;
+    font-size: 17px;
+}
+
+.remember {
+    margin-top: 10px;
+   
+}
+
+hr {
+    width: 25%;
+    position: absolute;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(10, 13, 167);
+}
+a:hover {
+    font-size: 20px;
+    text-decoration: underline;
+}

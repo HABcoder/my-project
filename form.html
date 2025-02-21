@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="all">
+        <div class="rt">
+            <img src="logo1.png" alt="">
+            <h3>Welcome to the Data Interchange <br>
+            professional e-invoicing portal</h3>
+        </div>
+        <div class="lt">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="79862d95-6211-4d4a-80c9-75a0d3d3947c" />
+                <h2>Create your account</h2>           
+                <div class="first">
+                    <label>First Name</label>
+                    <br>
+                    <input type="text" name="name">
+                    <br><br>                   
+                    <label>Your email address</label>
+                    <br>
+                    <input type="email"  name="email" required>
+                    <br><br>                   
+                    <label>Password</label>
+                    <br>
+                    <input type="password" name="pass" required>
+                    <br><br>                  
+                    <label>Confirm Password</label>
+                    <br>
+                    <input type="password" name="confim">
+                </div>
+                <div class="remember">
+                    <label><input type="checkbox" >Remember me</label>
+                </div>
+                <button type="submit">Create New</button>
+            </form>
+                <p>Already have an account <a href="#">Sign In</a>
+                </p>
+                <hr>
+                <br>
+                <p id="terms">By clicking Sign Up you agree to the
+                    <a href="#">Terms</a>
+                    and
+                    <a href="#">Privacy Policy</a>
+                </p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

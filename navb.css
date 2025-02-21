@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   background: url(navbar\ &\ carousel\ _cleanup.png) no-repeat;
+   background-size: cover;
+   font-family: poppins, Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
+   overflow: hidden;
+}
+
+.nav {
+   height: 130px;
+   width: 100%;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.logo img {
+   width: 130px;
+   padding: 50px 0 0;
+}
+
+.nav-link {
+   height: 30px;
+   width: 40%;
+   display: flex;
+   justify-content: space-around;
+   padding: 60px 0 0;
+}
+
+.nav-link a {
+   text-decoration: none;
+   font-size: 20px;
+   color: #853919;
+
+}
+
+select {
+   border: 0cap;
+   background-color: transparent;
+   color: #864B32;
+   font-size: 20px;
+   cursor: pointer;
+}
+
+.icon {
+   height: 30px;
+   width: 16%;
+   display: flex;
+   justify-content: space-around;
+   padding: 50px 0 0;
+}
+
+.icon i {
+   display: flex;
+   width: 45px;
+   height: 40px;
+   border: 1px solid white;
+   border-radius: 100%;
+   justify-content: center;
+   align-items: center;
+   margin-left: 5px;
+   box-shadow: 1px 1px 2px #4b4b4b;
+
+}
+
+.icon button {
+   margin-left: 5px;
+   height: 40px;
+   font-size: 15px;
+   width: 130px;
+   border-radius: 20px;
+   color: aliceblue;
+   background-color: #864B32;
+   border: 0cap;
+   cursor: pointer;
+   box-shadow: 1px 1px 2px #4b4b4b;
+}
+
+.icon button:hover {
+   color: #853919;
+   border: 2px solid #853919;
+   background-color: white;
+   font-weight: bold;
+}
+
+/*      main content css    */
+
+.cof {
+   height: 785px;
+   width: 50%;
+   padding-left: 40px;
+}
+
+h1 {
+   margin-top: 12%;
+   font-size: 140px;
+   height: 190px;
+   color: #6d280b;
+   text-shadow: 2px 2px 3px #4b4b4b;
+}
+
+h2 {
+   font-size: 50px;
+   color: #703015e3;
+
+}
+
+.btn {
+   display: flex;
+   width: 600px;
+   justify-content: space-around;
+   margin-top: 50px;
+}
+
+.btn1 {
+   height: 50px;
+   width: 200px;
+}
+
+.btn1 a {
+   text-decoration: none;
+   border: 2px solid #853919;
+   border-radius: 50px;
+   padding: 20px;
+   color: aliceblue;
+   background-color: #853919;
+   box-shadow: 0 0 5px #853919;
+}
+
+.btn1 a:hover {
+   background-color: white;
+   color: #853919;
+   box-shadow: 0 0 5px #853919;
+
+}
+
+.btn2 {
+   height: 50px;
+   width: 200px;
+}
+
+.btn2 a {
+   text-decoration: none;
+   border: 2px solid #853919;
+   border-radius: 50px;
+   padding: 20px;
+   color: #853919;
+   box-shadow: 0 0 3px #853919;
+}
+
+.btn2 a:hover {
+   background-color: #853919;
+   color: white;
+}
+
+.last {
+   height: 200px;
+   width: 90%;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.product {
+   height: 100px;
+   width: 200px;
+   line-height: 40px;
+}
+
+.sales {
+   height: 100px;
+   width: 200px;
+
+   line-height: 40px;
+}
+
+.total {
+   height: 100px;
+   width: 200px;
+
+   line-height: 40px;
+}
+
+.last p {
+   font-size: 20px;
+}
+
+.last h2 {
+   color: black;
+}
